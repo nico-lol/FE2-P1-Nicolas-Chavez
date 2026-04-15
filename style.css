@@ -39,6 +39,7 @@ nav {
     justify-content: center;
     background-color: #333;
     padding: 10px 0;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -75,7 +76,7 @@ nav a:hover {
 }
 
 .presentation-image {
-    max-width: 60%;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -140,23 +141,23 @@ nav a:hover {
     margin: 10px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     color: #ccc;
+    text-align: center;
 }
 
 .games li strong {
     color: #ff4d4d;
 }
 
-/* Estilo para las imágenes de los juegos */
 .game-image {
     display: block;
-    max-width: 150px; /* Tamaño reducido */
+    max-width: 150px;
     height: auto;
-    margin: 10px auto; /* Centrado */
+    margin: 10px auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Nueva sección: Precio y Ventajas */
+/* Pricing Section */
 .pricing {
     padding: 20px;
     background-color: #262626;
@@ -199,30 +200,69 @@ footer {
     margin-top: 20px;
 }
 
-/* Sección de Presentación */
-.presentation {
-    text-align: center;
-    padding: 40px 20px;
-    background: linear-gradient(90deg, #1a75ff, #ff4d4d);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation {
+        padding: 15px;
+    }
+
+    .presentation h2 {
+        font-size: 1.5rem;
+    }
+
+    .presentation p {
+        font-size: 0.9rem;
+    }
+
+    .features h2,
+    .games h2,
+    .pricing h2 {
+        font-size: 1.5rem;
+    }
+
+    .feature,
+    .games li,
+    .pricing {
+        padding: 10px;
+    }
+
+    .game-image {
+        max-width: 120px;
+    }
 }
 
-.presentation h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
 
-.presentation p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    line-height: 1.8;
-}
+    nav a {
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
 
-.presentation-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    .presentation h2 {
+        font-size: 1.2rem;
+    }
+
+    .presentation p {
+        font-size: 0.8rem;
+    }
+
+    .game-image {
+        max-width: 100px;
+    }
 }
