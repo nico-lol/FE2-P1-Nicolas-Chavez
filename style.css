@@ -53,43 +53,107 @@ nav a:hover {
     color: #ff4d4d;
 }
 
-/* Main Section */
-main {
+/* Presentation Section */
+.presentation {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #1a75ff, #ff4d4d);
+    color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.presentation h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.presentation p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.presentation-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Features Section */
+.features {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-main .features {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-main .feature {
-    background: #262626;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
+.features h2 {
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;
-}
-
-main .feature:hover {
-    transform: scale(1.05);
-}
-
-main .feature h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
     color: #ff4d4d;
 }
 
-main .feature p {
+.feature {
+    background: #262626;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.feature h3 {
+    font-size: 1.2rem;
+    color: #ff4d4d;
+    margin-bottom: 10px;
+}
+
+.feature p {
     font-size: 1rem;
     color: #ccc;
+}
+
+/* Games Section */
+.games {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.games h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #1a75ff;
+}
+
+.games ul {
+    list-style: none;
+    padding: 0;
+}
+
+.games li {
+    background: #262626;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: #ccc;
+}
+
+.games li strong {
+    color: #ff4d4d;
+}
+
+/* Estilo para las imágenes de los juegos */
+.game-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer */
@@ -99,10 +163,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-}
-
-footer p {
-    font-size: 0.9rem;
 }
 
 /* Sección de Presentación */
