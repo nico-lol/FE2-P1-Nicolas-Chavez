@@ -1,0 +1,20 @@
+Listado de Prompts y Nivel de Utilidad:
+1. Necesito un diseño para una página web acerca de una consola de videojuegos que sea visualmente atractiva y organizada.
+   Etapa: Inicial 
+   Nivel de utilidad: Muy Alto
+
+2. Modifica el código para que la página principal muestre: El nombre del producto. Una breve descripción. Una sección destacada (presentación del producto).
+    Etapa: Media 
+   Nivel de utilidad: Bajo
+
+3. En la carpeta de images he agregado imágenes de los videojuegos mencionados en el catálogo, necesito ponerlos en el sitio que corresponde con el nombre del juego y el nombre de la imagen.
+   Etapa: Media 
+   Nivel de utilidad: Alto
+
+4. Debo añadir una sección que muestre el precio del producto y ventajas frente a otras consolas. Si es posible achicar las imágenes que se encuentran en el catálogo y alinearlas para agregar la nueva sección en un espacio abajo de la página.
+   Etapa: Final 
+   Nivel de utilidad: Medio
+
+5. Mi página web debe ser legible en páginas pequeñas como celulares o tablets. Evitando siempre problemas de superposición o distribución errónea.
+   Etapa: Final 
+   Nivel de utilidad: Bajo
